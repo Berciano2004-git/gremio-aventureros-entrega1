@@ -1,0 +1,11 @@
+# Keep local environment and Git metadata out of the image.
+.git
+.gitignore
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
